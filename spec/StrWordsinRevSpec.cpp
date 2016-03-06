@@ -25,7 +25,7 @@ namespace spec
 		}
 		TEST_METHOD(BasicStr)
 		{
-			char input[10] = "a b c d";
+			char input[20] = "a b c d";
 			char output[10] = "d c b a";
 			int len = 7;
 			int i = 0;
